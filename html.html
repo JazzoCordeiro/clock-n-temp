@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weather and clock</title>
+    <script src="script.js"></script>
+    <script src="script2.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="path/to/your/favicon.ico" type="image/x-icon">
+</head>
+<body onload="load()">
+    <header><h1>Online weather and clock</h1></header>
+    <section class="global">
+        <div class="general">
+            <div id="photo">
+                <img id="image" src="morning.png" alt="picture of a campsite">
+            </div>
+            <br>
+            <div id="bigBox">
+            <div id="msg">mensagem do dia</div>
+            <br>
+            <!-- from here on it is about weather-->
+            <div class="smallBox">
+            <input class="cidade" placeholder="Enter City"> 
+            <button class="button" onclick="cliqueiNoBotao()">search</button>
+            <div class="textInABox">
+            <h2 class="place">Weather today in:</h2>
+            <p class="temp">This much°C</p>
+            <!-- weather icon-->
+            <img class="weatherIcon" alt="weather icon" src="https://openweathermap.org/img/wn/04n.png"> 
+            <p class="rainy">unkown yet</p>
+            <p class="maxTemp">max-temp</p>
+            <p class="minTemp">min-temp</p>
+
+            <p class="humidity">humidity unkown yet</p>
+            </div>
+            </div>
+            </div>
+        </div>
+       
+    </section>
+    <footer>
+        <p>project made for Jazão Cordeiro Rosa's <a href=https://github.com/JazzoCordeiro target="_blank">GitHub portfolio</a>.</p>
+        <p>Special thanks to my friends who answered my questions and made this project possible!</p>
+           <p><a href=https://github.com/stsmuniz target="_blank">Salustiano Muniz</a></p>
+            <p><a href=https://github.com/Jdneto target="_blank">José Dias Neto</a></p>
+            <p>Thiago (GIT:)</p>
+
+
+    </footer>
+</body>
+</html>
